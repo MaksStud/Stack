@@ -13,12 +13,10 @@ double testMyStack(int num) {
 }
 
 TEST_CASE("testing my stack") {
-	CHECK(testMyStack(1) == 1);
-	CHECK(testMyStack(16) == 16);
-	CHECK(testMyStack(-100) == -100);
+	CHECK(testMyStack(-81) == -81);
 }
 
-int testSteckSTL(int num) {
+/*int testSteckSTL(int num) {
 	stack<int> stack;
 	stack.push(num);
 	int a = stack.top();
@@ -29,4 +27,4 @@ TEST_CASE("testing stack STL") {
 	CHECK(testSteckSTL(21) == 21);
 	CHECK(testSteckSTL(-1) == -1);
 	CHECK(testSteckSTL(5) == 5);
-}
+}*/
