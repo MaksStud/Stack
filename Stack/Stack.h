@@ -4,7 +4,7 @@ class Stack
 private:
 	int top;
 	int size_array;
-	double* array;
+	double* array = new double[size_array];
 public:
 	void setArray(double* user_arr, int user_size_array);
 	double* getArray();
